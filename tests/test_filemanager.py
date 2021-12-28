@@ -1,17 +1,9 @@
-# подключаю необходимы библиотеки
-
 import os
 import shutil
 import pytest
 
-# прописываю постоянные значения для трех переменных
-
 filePath = "/Users/Игорь/File_Manager/test.txt"  # файл
 dirPath = "/Users/Игорь/File_Manager/test"  # папка
-OS = "darwin"  # операционная система
-
-
-# начинаю создавать фикстуры
 
 # узнать текущее местонахождение
 
